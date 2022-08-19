@@ -1,0 +1,255 @@
+//========================================================================================================================================================
+.header {
+	padding: 30px 0px;
+	@media (max-width: 915px) {
+		position: fixed;
+		width: 100%;
+		background-color: #26243f;
+		z-index: 10;
+		padding: 15px 0px;
+	}
+	&__body {
+		display: flex;
+		gap: 15px;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__main {
+		display: flex;
+		gap: 30px;
+		align-items: center;
+		max-width: 940px;
+		flex: 1 1 auto;
+		@media (max-width: 915px) {
+			gap: 15px;
+		}
+	}
+
+	&__menu {
+		display: none;
+		@media (max-width: 915px) {
+			display: block;
+		}
+	}
+
+	&__search {
+		position: relative;
+		max-width: 560px;
+		flex: 1 1 auto;
+	}
+
+	&__input {
+		padding: 17px 0px 17px 50px;
+		width: 100%;
+		background: #151423;
+		border: 1px solid #26243f;
+		border-radius: 16px;
+		color: #fff;
+		&::placeholder {
+			font-weight: 600;
+			font-size: 14px;
+			line-height: 10px;
+			color: #8a88b7;
+		}
+	}
+
+	&__icon {
+		position: absolute;
+		left: 20px;
+		top: 17px;
+	}
+
+	&__scores {
+		display: flex;
+		gap: 30px;
+		align-items: center;
+		@media (max-width: 915px) {
+			display: none;
+		}
+	}
+
+	&__item {
+		cursor: pointer;
+		display: flex;
+		gap: 14px;
+		padding: 10px;
+		align-items: center;
+		background: #151423;
+		border: 1px solid #26243f;
+		border-radius: 16px;
+		transition: all 0.3s ease 0s;
+		@media (any-hover: hover) {
+			&:hover {
+				background-color: rgba(38, 36, 63, 1);
+			}
+		}
+	}
+
+	&__money {
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 14px;
+		color: #ffffff;
+	}
+
+	&__punctuation {
+		display: flex;
+		gap: 15px;
+		align-items: center;
+	}
+
+	&__bell {
+		position: relative;
+		background-color: #151423;
+		border: 1px solid #26243f;
+		border-radius: 16px;
+		padding: 13px 14px;
+		&::before {
+			content: "";
+			position: absolute;
+			top: 16px;
+			right: 13px;
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			background-color: #2673dd;
+			border: 1px solid #151421;
+		}
+		@media (max-width: 420px) {
+			display: none;
+		}
+	}
+
+	&__dimond {
+		background-color: #151423;
+		border: 1px solid #26243f;
+		border-radius: 16px;
+		padding: 10px;
+		@media (max-width: 420px) {
+			display: none;
+		}
+	}
+
+	&__user {
+		background: linear-gradient(135deg, #2673dd 0%, #001aff 100%);
+		box-shadow: 0px 0px 48px rgba(0, 26, 255, 0.16);
+		border-radius: 16px;
+		padding: 10px;
+	}
+}
+.navbar {
+	&__body {
+	}
+
+	&__header {
+	}
+
+	&__btn {
+		position: relative;
+		z-index: 100000;
+		height: 30px;
+	}
+
+	&__menu {
+		position: fixed;
+		left: -100%;
+		top: 0;
+		z-index: 10000;
+		height: 100%;
+		overflow: hidden;
+		transition: all 0.3s ease 0s;
+		background: rgba(18, 18, 32, 0.9);
+		border: 1px solid #26243f;
+		backdrop-filter: blur(30px);
+		border-radius: 16px;
+		@media (max-width: 440px) {
+			border-radius: 0;
+		}
+	}
+}
+.menu-navbar {
+	&__content {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 100%;
+		padding: 10px 0px 30px 60px;
+	}
+
+	&__navigation {
+	}
+
+	&__logotip {
+		display: flex;
+		gap: 10px;
+		align-items: center;
+		&:not(:last-child) {
+			margin-bottom: 40px;
+		}
+	}
+
+	&__title {
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 14px;
+		text-transform: uppercase;
+	}
+
+	&__link {
+		display: flex;
+		gap: 30px;
+		align-items: center;
+		padding: 0px 0px 0px 20px;
+		.ri-layout-grid-line,
+		.ri-earth-line,
+		.ri-bar-chart-box-line,
+		.ri-goblet-fill,
+		.ri-wallet-line {
+			font-size: 30px;
+			color: #8290b0;
+		}
+		&:not(:last-child) {
+			margin-bottom: 30px;
+		}
+	}
+
+	&__name {
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 14px;
+		text-transform: uppercase;
+		color: #8290b0;
+	}
+
+	&__bottom {
+		display: flex;
+		gap: 30px;
+		align-items: center;
+		padding: 0px 0px 0px 20px;
+		.ri-headphone-line {
+			font-size: 30px;
+			color: #ffffff;
+		}
+		&:not(:last-child) {
+			margin-bottom: 30px;
+		}
+		.menu-navbar__name {
+			color: #ffffff;
+		}
+	}
+}
+.menu-open {
+	width: 400px;
+	left: 0;
+	@media (max-width: 440px) {
+		width: 100%;
+	}
+}
+.navbar-active {
+	.menu-navbar__name,
+	.light {
+		color: #ffffff;
+	}
+}
+//========================================================================================================================================================

@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/nullstyles.css">
+	<link rel="stylesheet" href="css/header.css">
+	<title>Fls Start Sass/Scss</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__body">
+					<div class="header__main">
+						<div class="header__menu">
+							<div class="navbar__body">
+								<div class="navbar__header">
+									<button type="button" class="navbar__btn"><i class="ri-menu-line"></i></button>
+								</div>
+								<div class="navbar__menu menu-navbar">
+									<div class="menu-navbar__content">
+										<div class="menu-navbar__navigation">
+											<div class="menu-navbar__logotip">
+												<img src="img/logo.svg" alt="">
+												<div class="menu-navbar__title">Company</div>
+											</div>
+											<a href="#home" class="menu-navbar__link navbar-active">
+												<i class="ri-layout-grid-line light"></i>
+												<div class="menu-navbar__name">home</div>
+											</a>
+											<a href="#news" class="menu-navbar__link">
+												<i class="ri-earth-line light"></i>
+												<div class="menu-navbar__name">news</div>
+											</a>
+											<div class="menu-navbar__link">
+												<i class="ri-bar-chart-box-line light"></i>
+												<div class="menu-navbar__name">staking</div>
+											</div>
+											<div class="menu-navbar__link">
+												<i class="ri-goblet-fill light"></i>
+												<div class="menu-navbar__name">airdrops</div>
+											</div>
+											<div class="menu-navbar__link">
+												<i class="ri-wallet-line light"></i>
+												<div class="menu-navbar__name">wallet</div>
+											</div>
+										</div>
+										<div class="menu-navbar__bottom">
+											<i class="ri-headphone-line"></i>
+											<h3 class="menu-navbar__name">support</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="header__search">
+							<input autocomplete="off" type="text" name="form[]" data-error="error" placeholder="Search"
+								class="header__input">
+							<img src="img/search.svg" alt="" class="header__icon">
+						</div>
+						<div class="header__scores">
+							<div class="header__item">
+								<img src="img/preview/01.svg" alt="">
+								<div class="header__money">999,99 USD</div>
+							</div>
+							<div class="header__item">
+								<img src="img/preview/02.svg" alt="">
+								<div class="header__money">999,99 USD</div>
+							</div>
+						</div>
+					</div>
+					<div class="header__punctuation">
+						<div class="header__bell">
+							<img src="img/icons/call.svg" alt="">
+						</div>
+						<div class="header__dimond">
+							<img src="img/icons/dimond.svg" alt="">
+						</div>
+						<div class="header__user">
+							<img src="img/icons/person.svg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__fixed fixed">
+				<div class="fixed__navigation">
+					<div class="fixed__logo">
+						<img src="img/logo.svg" alt="">
+						<h3 class="fixed__title">Company</h3>
+					</div>
+					<a href="#home" class="fixed__link fixed-active">
+						<i class="ri-layout-grid-line white"></i>
+						<h3 class="fixed__name">home</h3>
+					</a>
+					<a href="#news" class="fixed__link">
+						<i class="ri-earth-line white"></i>
+						<h3 class="fixed__name">news</h3>
+					</a>
+					<a href="#staking" class="fixed__link">
+						<i class="ri-bar-chart-box-line white"></i>
+						<h3 class="fixed__name">staking</h3>
+					</a>
+					<div class="fixed__link">
+						<i class="ri-goblet-fill white"></i>
+						<h3 class="fixed__name">airdrops</h3>
+					</div>
+					<div class="fixed__link">
+						<i class="ri-wallet-line white"></i>
+						<h3 class="fixed__name">wallet</h3>
+					</div>
+				</div>
+				<div class="fixed__bottom">
+					<i class="ri-headphone-line white"></i>
+					<h3 class="fixed__name">support</h3>
+				</div>
+			</section>
+			<section class="page__home home" id="home">
+				<div class="container">
+					<div class="title">
+						<h3>Wallet</h3>
+					</div>
+					<div class="home__body">
+						<div class="home__main main-home">
+							<div class="main-home__slider slider-home">
+								<div class="slider-home__container">
+									<div class="slider-home__slide">
+										<img src="img/home/01.svg" alt="">
+									</div>
+									<div class="slider-home__slide">
+										<img src="img/home/01.svg" alt="">
+									</div>
+									<div class="slider-home__slide">
+										<img src="img/home/01.svg" alt="">
+									</div>
+								</div>
+								<div class="slider-home__buttons">
+									<div class="slider-home__controls">
+										<button type="button" class="prev__btn">
+											<img src="img/icons/arrow-left.svg" alt="">
+										</button>
+										<button type="button" class="next__btn">
+											<img src="img/icons/arrow-right.svg" alt="">
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="main-home__portfolio portfolio-home">
+								<h3 class="portfolio-home__title">Мy portfolio</h3>
+								<div class="portfolio-home__blocks">
+									<div class="portfolio-home__block">
+										<div class="portfolio-home__top">
+											<img src="img/preview/03.svg" alt="">
+											<div class="portfolio-home__valute">
+												<div class="portfolio-home__cripto">BNB <span>/ USDT</span></div>
+												<div class="portfolio-home__platform">Binance Coin</div>
+											</div>
+										</div>
+										<div class="portfolio-home__bottom">
+											<div class="portfolio-home__price">11.64 BNB</div>
+											<div class="portfolio-home__red"><img src="img/icons/red-down.svg"
+													alt=""><span> -0.32%</span></div>
+										</div>
+									</div>
+									<div class="portfolio-home__block">
+										<div class="portfolio-home__top">
+											<img src="img/preview/04.svg" alt="">
+											<div class="portfolio-home__valute">
+												<div class="portfolio-home__cripto">LAMA <span>/ USDT</span></div>
+												<div class="portfolio-home__platform">LAMA</div>
+											</div>
+										</div>
+										<div class="portfolio-home__bottom">
+											<div class="portfolio-home__price">50 168.27 LAMA</div>
+											<div class="portfolio-home__green"><img src="img/icons/green-up.svg"
+													alt=""><span>+ 6.21%</span></div>
+										</div>
+									</div>
+									<div class="portfolio-home__block">
+										<div class="portfolio-home__top">
+											<img src="img/preview/03.svg" alt="">
+											<div class="portfolio-home__valute">
+												<div class="portfolio-home__cripto">BNB <span>/ USDT</span></div>
+												<div class="portfolio-home__platform">Binance Coin</div>
+											</div>
+										</div>
+										<div class="portfolio-home__bottom">
+											<div class="portfolio-home__price">11.64 BNB</div>
+											<div class="portfolio-home__red"><img src="img/icons/red-down.svg"
+													alt=""><span> -0.32%</span></div>
+										</div>
+									</div>
+									<div class="portfolio-home__block">
+										<div class="portfolio-home__top">
+											<img src="img/preview/04.svg" alt="">
+											<div class="portfolio-home__valute">
+												<div class="portfolio-home__cripto">LAMA <span>/ USDT</span></div>
+												<div class="portfolio-home__platform">LAMA</div>
+											</div>
+										</div>
+										<div class="portfolio-home__bottom">
+											<div class="portfolio-home__price">50 168.27 LAMA</div>
+											<div class="portfolio-home__green"><img src="img/icons/green-up.svg"
+													alt=""><span>+ 6.21%</span></div>
+										</div>
+									</div>
+									<div class="portfolio-home__block">
+										<div class="portfolio-home__top">
+											<img src="img/preview/03.svg" alt="">
+											<div class="portfolio-home__valute">
+												<div class="portfolio-home__cripto">BNB <span>/ USDT</span></div>
+												<div class="portfolio-home__platform">Binance Coin</div>
+											</div>
+										</div>
+										<div class="portfolio-home__bottom">
+											<div class="portfolio-home__price">11.64 BNB</div>
+											<div class="portfolio-home__red"><img src="img/icons/red-down.svg"
+													alt=""><span> -0.32%</span></div>
+										</div>
+									</div>
+									<div class="portfolio-home__block">
+										<div class="portfolio-home__top">
+											<img src="img/preview/04.svg" alt="">
+											<div class="portfolio-home__valute">
+												<div class="portfolio-home__cripto">LAMA <span>/ USDT</span></div>
+												<div class="portfolio-home__platform">LAMA</div>
+											</div>
+										</div>
+										<div class="portfolio-home__bottom">
+											<div class="portfolio-home__price">50 168.27 LAMA</div>
+											<div class="portfolio-home__green"><img src="img/icons/green-up.svg"
+													alt=""><span>+ 6.21%</span></div>
+										</div>
+									</div>
+									<div class="portfolio-home__block">
+										<div class="portfolio-home__top">
+											<img src="img/preview/03.svg" alt="">
+											<div class="portfolio-home__valute">
+												<div class="portfolio-home__cripto">BNB <span>/ USDT</span></div>
+												<div class="portfolio-home__platform">Binance Coin</div>
+											</div>
+										</div>
+										<div class="portfolio-home__bottom">
+											<div class="portfolio-home__price">11.64 BNB</div>
+											<div class="portfolio-home__red"><img src="img/icons/red-down.svg"
+													alt=""><span> -0.32%</span></div>
+										</div>
+									</div>
+									<div class="portfolio-home__block">
+										<div class="portfolio-home__top">
+											<img src="img/preview/04.svg" alt="">
+											<div class="portfolio-home__valute">
+												<div class="portfolio-home__cripto">LAMA <span>/ USDT</span></div>
+												<div class="portfolio-home__platform">LAMA</div>
+											</div>
+										</div>
+										<div class="portfolio-home__bottom">
+											<div class="portfolio-home__price">50 168.27 LAMA</div>
+											<div class="portfolio-home__green"><img src="img/icons/green-up.svg"
+													alt=""><span>+ 6.21%</span></div>
+										</div>
+									</div>
+									<div class="portfolio-home__block">
+										<div class="portfolio-home__top">
+											<img src="img/preview/03.svg" alt="">
+											<div class="portfolio-home__valute">
+												<div class="portfolio-home__cripto">BNB <span>/ USDT</span></div>
+												<div class="portfolio-home__platform">Binance Coin</div>
+											</div>
+										</div>
+										<div class="portfolio-home__bottom">
+											<div class="portfolio-home__price">11.64 BNB</div>
+											<div class="portfolio-home__red"><img src="img/icons/red-down.svg"
+													alt=""><span> -0.32%</span></div>
+										</div>
+									</div>
+									<div class="portfolio-home__block">
+										<div class="portfolio-home__top">
+											<img src="img/preview/04.svg" alt="">
+											<div class="portfolio-home__valute">
+												<div class="portfolio-home__cripto">LAMA <span>/ USDT</span></div>
+												<div class="portfolio-home__platform">LAMA</div>
+											</div>
+										</div>
+										<div class="portfolio-home__bottom">
+											<div class="portfolio-home__price">50 168.27 LAMA</div>
+											<div class="portfolio-home__green"><img src="img/icons/green-up.svg"
+													alt=""><span>+ 6.21%</span></div>
+										</div>
+									</div>
+									<div class="portfolio-home__block">
+										<div class="portfolio-home__top">
+											<img src="img/preview/03.svg" alt="">
+											<div class="portfolio-home__valute">
+												<div class="portfolio-home__cripto">BNB <span>/ USDT</span></div>
+												<div class="portfolio-home__platform">Binance Coin</div>
+											</div>
+										</div>
+										<div class="portfolio-home__bottom">
+											<div class="portfolio-home__price">11.64 BNB</div>
+											<div class="portfolio-home__red"><img src="img/icons/red-down.svg"
+													alt=""><span> -0.32%</span></div>
+										</div>
+									</div>
+									<div class="portfolio-home__block">
+										<div class="portfolio-home__top">
+											<img src="img/preview/04.svg" alt="">
+											<div class="portfolio-home__valute">
+												<div class="portfolio-home__cripto">LAMA <span>/ USDT</span></div>
+												<div class="portfolio-home__platform">LAMA</div>
+											</div>
+										</div>
+										<div class="portfolio-home__bottom">
+											<div class="portfolio-home__price">50 168.27 LAMA</div>
+											<div class="portfolio-home__green"><img src="img/icons/green-up.svg"
+													alt=""><span>+ 6.21%</span></div>
+										</div>
+									</div>
+									<div class="portfolio-home__block">
+										<div class="portfolio-home__top">
+											<img src="img/preview/03.svg" alt="">
+											<div class="portfolio-home__valute">
+												<div class="portfolio-home__cripto">BNB <span>/ USDT</span></div>
+												<div class="portfolio-home__platform">Binance Coin</div>
+											</div>
+										</div>
+										<div class="portfolio-home__bottom">
+											<div class="portfolio-home__price">11.64 BNB</div>
+											<div class="portfolio-home__red"><img src="img/icons/red-down.svg"
+													alt=""><span> -0.32%</span></div>
+										</div>
+									</div>
+									<div class="portfolio-home__block">
+										<div class="portfolio-home__top">
+											<img src="img/preview/04.svg" alt="">
+											<div class="portfolio-home__valute">
+												<div class="portfolio-home__cripto">LAMA <span>/ USDT</span></div>
+												<div class="portfolio-home__platform">LAMA</div>
+											</div>
+										</div>
+										<div class="portfolio-home__bottom">
+											<div class="portfolio-home__price">50 168.27 LAMA</div>
+											<div class="portfolio-home__green"><img src="img/icons/green-up.svg"
+													alt=""><span>+ 6.21%</span></div>
+										</div>
+									</div>
+									<div class="portfolio-home__block">
+										<div class="portfolio-home__top">
+											<img src="img/preview/03.svg" alt="">
+											<div class="portfolio-home__valute">
+												<div class="portfolio-home__cripto">BNB <span>/ USDT</span></div>
+												<div class="portfolio-home__platform">Binance Coin</div>
+											</div>
+										</div>
+										<div class="portfolio-home__bottom">
+											<div class="portfolio-home__price">11.64 BNB</div>
+											<div class="portfolio-home__red"><img src="img/icons/red-down.svg"
+													alt=""><span> -0.32%</span></div>
+										</div>
+									</div>
+									<div class="portfolio-home__block">
+										<div class="portfolio-home__top">
+											<img src="img/preview/04.svg" alt="">
+											<div class="portfolio-home__valute">
+												<div class="portfolio-home__cripto">LAMA <span>/ USDT</span></div>
+												<div class="portfolio-home__platform">LAMA</div>
+											</div>
+										</div>
+										<div class="portfolio-home__bottom">
+											<div class="portfolio-home__price">50 168.27 LAMA</div>
+											<div class="portfolio-home__green"><img src="img/icons/green-up.svg"
+													alt=""><span>+ 6.21%</span></div>
+										</div>
+									</div>
+									<div class="portfolio-home__block">
+										<div class="portfolio-home__top">
+											<img src="img/preview/03.svg" alt="">
+											<div class="portfolio-home__valute">
+												<div class="portfolio-home__cripto">BNB <span>/ USDT</span></div>
+												<div class="portfolio-home__platform">Binance Coin</div>
+											</div>
+										</div>
+										<div class="portfolio-home__bottom">
+											<div class="portfolio-home__price">11.64 BNB</div>
+											<div class="portfolio-home__red"><img src="img/icons/red-down.svg"
+													alt=""><span> -0.32%</span></div>
+										</div>
+									</div>
+									<div class="portfolio-home__block">
+										<div class="portfolio-home__top">
+											<img src="img/preview/04.svg" alt="">
+											<div class="portfolio-home__valute">
+												<div class="portfolio-home__cripto">LAMA <span>/ USDT</span></div>
+												<div class="portfolio-home__platform">LAMA</div>
+											</div>
+										</div>
+										<div class="portfolio-home__bottom">
+											<div class="portfolio-home__price">50 168.27 LAMA</div>
+											<div class="portfolio-home__green"><img src="img/icons/green-up.svg"
+													alt=""><span>+ 6.21%</span></div>
+										</div>
+									</div>
+									<div class="portfolio-home__block">
+										<div class="portfolio-home__top">
+											<img src="img/preview/03.svg" alt="">
+											<div class="portfolio-home__valute">
+												<div class="portfolio-home__cripto">BNB <span>/ USDT</span></div>
+												<div class="portfolio-home__platform">Binance Coin</div>
+											</div>
+										</div>
+										<div class="portfolio-home__bottom">
+											<div class="portfolio-home__price">11.64 BNB</div>
+											<div class="portfolio-home__red"><img src="img/icons/red-down.svg"
+													alt=""><span> -0.32%</span></div>
+										</div>
+									</div>
+									<div class="portfolio-home__block">
+										<div class="portfolio-home__top">
+											<img src="img/preview/04.svg" alt="">
+											<div class="portfolio-home__valute">
+												<div class="portfolio-home__cripto">LAMA <span>/ USDT</span></div>
+												<div class="portfolio-home__platform">LAMA</div>
+											</div>
+										</div>
+										<div class="portfolio-home__bottom">
+											<div class="portfolio-home__price">50 168.27 LAMA</div>
+											<div class="portfolio-home__green"><img src="img/icons/green-up.svg"
+													alt=""><span>+ 6.21%</span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="home__person person-home">
+							<div class="person-home__accaunt">
+								<div class="person-home__top">
+									<div class="person-home__person">
+										<img src="img/icons/person.svg" alt="">
+										<div class="person-home__name">Nick name</div>
+									</div>
+									<div class="person-home__icons">
+										<div class="person-home__score">
+											<div class="person-home__money">5000</div>
+											<img src="img/icons/dimond.svg" alt="">
+										</div>
+										<div class="person-home__logout">
+											<img src="img/icons/logout.svg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="person-home__balance">
+									<div class="person-home__title">Balance</div>
+									<div class="person-home__price"><span>8277</span>.51 USDT</div>
+									<div class="person-home__profit">Monthly profit</div>
+									<div class="person-home__bottom">
+										<div class="person-home__remenant"><span>513</span>.20 USDT</div>
+										<div class="person-home__span">+6.20 %</div>
+									</div>
+								</div>
+								<div class="person-home__buttons">
+									<button type="button" class="person-home__request">Request</button>
+									<button type="button" class="person-home__transfer">Transfer</button>
+								</div>
+							</div>
+							<div class="person-home__recent recent-person">
+								<h3 class="recent-person__title">Recent transactions</h3>
+								<div class="recent-person__blocks">
+									<div class="recent-person__block">
+										<div class="recent-person__coin">
+											<img src="img/preview/03.svg" alt="">
+											<div class="recent-person__event">
+												<div class="recent-person__name">Buy BNB</div>
+												<div class="recent-person__date">10.07.22</div>
+											</div>
+										</div>
+										<div class="recent-person__price">+ 11,64 BNB</div>
+									</div>
+									<div class="recent-person__block">
+										<div class="recent-person__coin">
+											<img src="img/preview/03.svg" alt="">
+											<div class="recent-person__event">
+												<div class="recent-person__name">Buy BNB</div>
+												<div class="recent-person__date">10.07.22</div>
+											</div>
+										</div>
+										<div class="recent-person__price">+ 11,64 BNB</div>
+									</div>
+									<div class="recent-person__block">
+										<div class="recent-person__coin">
+											<img src="img/preview/03.svg" alt="">
+											<div class="recent-person__event">
+												<div class="recent-person__name">Buy BNB</div>
+												<div class="recent-person__date">10.07.22</div>
+											</div>
+										</div>
+										<div class="recent-person__price">+ 11,64 BNB</div>
+									</div>
+									<div class="recent-person__block">
+										<div class="recent-person__coin">
+											<img src="img/preview/03.svg" alt="">
+											<div class="recent-person__event">
+												<div class="recent-person__name">Buy BNB</div>
+												<div class="recent-person__date">10.07.22</div>
+											</div>
+										</div>
+										<div class="recent-person__price">+ 11,64 BNB</div>
+									</div>
+									<div class="recent-person__block">
+										<div class="recent-person__coin">
+											<img src="img/preview/03.svg" alt="">
+											<div class="recent-person__event">
+												<div class="recent-person__name">Buy BNB</div>
+												<div class="recent-person__date">10.07.22</div>
+											</div>
+										</div>
+										<div class="recent-person__price">+ 11,64 BNB</div>
+									</div>
+									<div class="recent-person__block">
+										<div class="recent-person__coin">
+											<img src="img/preview/03.svg" alt="">
+											<div class="recent-person__event">
+												<div class="recent-person__name">Buy BNB</div>
+												<div class="recent-person__date">10.07.22</div>
+											</div>
+										</div>
+										<div class="recent-person__price">+ 11,64 BNB</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__news news" id="news">
+				<div class="container">
+					<div class="news__content">
+						<div class="news__crypto crypto-news">
+							<div class="crypto-news__top">
+								<h3 class="crypto-news__title">Crypto <span>headlines</span></h3>
+							</div>
+							<div class="crypto-news__body">
+								<div class="crypto-news__blocks">
+									<div class="crypto-news__block">
+										<div class="crypto-news__image">
+											<img src="img/news/crypto-image.svg" alt="">
+										</div>
+										<div class="crypto-news__text">
+											<p>Ripple поддерживает Digital Euro Association для развития работы в
+												области
+												CBDC</p>
+										</div>
+										<div class="crypto-news__link">
+											<a href="">читать далее</a>
+											<img src="img/icons/arrow-molot.svg" alt="">
+										</div>
+									</div>
+									<div class="crypto-news__block">
+										<div class="crypto-news__image">
+											<img src="img/news/crypto-image.svg" alt="">
+										</div>
+										<div class="crypto-news__text">
+											<p>Ripple поддерживает Digital Euro Association для развития работы в
+												области
+												CBDC</p>
+										</div>
+										<div class="crypto-news__link">
+											<a href="">читать далее</a>
+											<img src="img/icons/arrow-molot.svg" alt="">
+										</div>
+									</div>
+									<div class="crypto-news__block">
+										<div class="crypto-news__image">
+											<img src="img/news/crypto-image.svg" alt="">
+										</div>
+										<div class="crypto-news__text">
+											<p>Ripple поддерживает Digital Euro Association для развития работы в
+												области
+												CBDC</p>
+										</div>
+										<div class="crypto-news__link">
+											<a href="">читать далее</a>
+											<img src="img/icons/arrow-molot.svg" alt="">
+										</div>
+									</div>
+									<div class="crypto-news__block">
+										<div class="crypto-news__image">
+											<img src="img/news/crypto-image.svg" alt="">
+										</div>
+										<div class="crypto-news__text">
+											<p>Ripple поддерживает Digital Euro Association для развития работы в
+												области
+												CBDC</p>
+										</div>
+										<div class="crypto-news__link">
+											<a href="">читать далее</a>
+											<img src="img/icons/arrow-molot.svg" alt="">
+										</div>
+									</div>
+									<div class="crypto-news__block">
+										<div class="crypto-news__image">
+											<img src="img/news/crypto-image.svg" alt="">
+										</div>
+										<div class="crypto-news__text">
+											<p>Ripple поддерживает Digital Euro Association для развития работы в
+												области
+												CBDC</p>
+										</div>
+										<div class="crypto-news__link">
+											<a href="">читать далее</a>
+											<img src="img/icons/arrow-molot.svg" alt="">
+										</div>
+									</div>
+									<div class="crypto-news__block">
+										<div class="crypto-news__image">
+											<img src="img/news/crypto-image.svg" alt="">
+										</div>
+										<div class="crypto-news__text">
+											<p>Ripple поддерживает Digital Euro Association для развития работы в
+												области
+												CBDC</p>
+										</div>
+										<div class="crypto-news__link">
+											<a href="">читать далее</a>
+											<img src="img/icons/arrow-molot.svg" alt="">
+										</div>
+									</div>
+									<div class="crypto-news__block">
+										<div class="crypto-news__image">
+											<img src="img/news/crypto-image.svg" alt="">
+										</div>
+										<div class="crypto-news__text">
+											<p>Ripple поддерживает Digital Euro Association для развития работы в
+												области
+												CBDC</p>
+										</div>
+										<div class="crypto-news__link">
+											<a href="">читать далее</a>
+											<img src="img/icons/arrow-molot.svg" alt="">
+										</div>
+									</div>
+									<div class="crypto-news__block">
+										<div class="crypto-news__image">
+											<img src="img/news/crypto-image.svg" alt="">
+										</div>
+										<div class="crypto-news__text">
+											<p>Ripple поддерживает Digital Euro Association для развития работы в
+												области
+												CBDC</p>
+										</div>
+										<div class="crypto-news__link">
+											<a href="">читать далее</a>
+											<img src="img/icons/arrow-molot.svg" alt="">
+										</div>
+									</div>
+									<div class="crypto-news__block">
+										<div class="crypto-news__image">
+											<img src="img/news/crypto-image.svg" alt="">
+										</div>
+										<div class="crypto-news__text">
+											<p>Ripple поддерживает Digital Euro Association для развития работы в
+												области
+												CBDC</p>
+										</div>
+										<div class="crypto-news__link">
+											<a href="">читать далее</a>
+											<img src="img/icons/arrow-molot.svg" alt="">
+										</div>
+									</div>
+									<div class="crypto-news__block">
+										<div class="crypto-news__image">
+											<img src="img/news/crypto-image.svg" alt="">
+										</div>
+										<div class="crypto-news__text">
+											<p>Ripple поддерживает Digital Euro Association для развития работы в
+												области
+												CBDC</p>
+										</div>
+										<div class="crypto-news__link">
+											<a href="">читать далее</a>
+											<img src="img/icons/arrow-molot.svg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="news__project project-news">
+							<div class="project-news__top">
+								<h3 class="project-news__title">Project <span>news</span></h3>
+							</div>
+							<div class="project-news__body">
+								<div class="project-news__blocks">
+									<div class="project-news__block">
+										<div class="project-news__image">
+											<img src="img/news/project-01.svg" alt="">
+										</div>
+										<div class="project-news__link">
+											<a href="">подробнее</a>
+											<img src="img/icons/arrow-molot.svg" alt="">
+										</div>
+									</div>
+									<div class="project-news__block">
+										<div class="project-news__image">
+											<img src="img/news/project-02.svg" alt="">
+										</div>
+										<div class="project-news__link">
+											<a href="">подробнее</a>
+											<img src="img/icons/arrow-molot.svg" alt="">
+										</div>
+									</div>
+									<div class="project-news__block">
+										<div class="project-news__image">
+											<img src="img/news/project-03.svg" alt="">
+										</div>
+										<div class="project-news__link">
+											<a href="">подробнее</a>
+											<img src="img/icons/arrow-molot.svg" alt="">
+										</div>
+									</div>
+									<div class="project-news__block">
+										<div class="project-news__image">
+											<img src="img/news/project-01.svg" alt="">
+										</div>
+										<div class="project-news__link">
+											<a href="">подробнее</a>
+											<img src="img/icons/arrow-molot.svg" alt="">
+										</div>
+									</div>
+									<div class="project-news__block">
+										<div class="project-news__image">
+											<img src="img/news/project-02.svg" alt="">
+										</div>
+										<div class="project-news__link">
+											<a href="">подробнее</a>
+											<img src="img/icons/arrow-molot.svg" alt="">
+										</div>
+									</div>
+									<div class="project-news__block">
+										<div class="project-news__image">
+											<img src="img/news/project-03.svg" alt="">
+										</div>
+										<div class="project-news__link">
+											<a href="">подробнее</a>
+											<img src="img/icons/arrow-molot.svg" alt="">
+										</div>
+									</div>
+									<div class="project-news__block">
+										<div class="project-news__image">
+											<img src="img/news/project-01.svg" alt="">
+										</div>
+										<div class="project-news__link">
+											<a href="">подробнее</a>
+											<img src="img/icons/arrow-molot.svg" alt="">
+										</div>
+									</div>
+									<div class="project-news__block">
+										<div class="project-news__image">
+											<img src="img/news/project-02.svg" alt="">
+										</div>
+										<div class="project-news__link">
+											<a href="">подробнее</a>
+											<img src="img/icons/arrow-molot.svg" alt="">
+										</div>
+									</div>
+									<div class="project-news__block">
+										<div class="project-news__image">
+											<img src="img/news/project-03.svg" alt="">
+										</div>
+										<div class="project-news__link">
+											<a href="">подробнее</a>
+											<img src="img/icons/arrow-molot.svg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__staking staking" id="staking">
+				<div class="container">
+					<div class="staking__title">
+						<h3>Staking</h3>
+					</div>
+					<div class="staking__content">
+						<div class="staking__list list-staking">
+							<div class="list-staking__blocks">
+								<div class="list-staking__block">
+									<div class="list-staking__top">
+										<div class="list-staking__tok">Token</div>
+										<div class="list-staking__arp">APR</div>
+									</div>
+									<div class="list-staking__token">
+										<div class="list-staking__valute">
+											<img src="img/preview/tokens.svg" alt="">
+											<div class="list-staking__usdt">USDT / LAMA</div>
+										</div>
+										<div class="list-staking__prosent">56%</div>
+										<div class="list-staking__nav">
+											<div class="list-staking__icon">
+												<img src="img/icons/calculator.svg" alt="">
+											</div>
+											<button type="button" class="list-staking__button">Claim</button>
+										</div>
+									</div>
+								</div>
+								<div class="list-staking__block">
+									<div class="list-staking__top">
+										<div class="list-staking__tok">Token</div>
+										<div class="list-staking__arp">APR</div>
+									</div>
+									<div class="list-staking__token">
+										<div class="list-staking__valute">
+											<img src="img/preview/tokens.svg" alt="">
+											<div class="list-staking__usdt">USDT / LAMA</div>
+										</div>
+										<div class="list-staking__prosent">56%</div>
+										<div class="list-staking__nav">
+											<div class="list-staking__icon">
+												<img src="img/icons/calculator.svg" alt="">
+											</div>
+											<button type="button" class="list-staking__button">Claim</button>
+										</div>
+									</div>
+								</div>
+								<div class="list-staking__block">
+									<div class="list-staking__top">
+										<div class="list-staking__tok">Token</div>
+										<div class="list-staking__arp">APR</div>
+									</div>
+									<div class="list-staking__token">
+										<div class="list-staking__valute">
+											<img src="img/preview/tokens.svg" alt="">
+											<div class="list-staking__usdt">USDT / LAMA</div>
+										</div>
+										<div class="list-staking__prosent">56%</div>
+										<div class="list-staking__nav">
+											<div class="list-staking__icon">
+												<img src="img/icons/calculator.svg" alt="">
+											</div>
+											<button type="button" class="list-staking__button">Claim</button>
+										</div>
+									</div>
+								</div>
+								<div class="list-staking__block">
+									<div class="list-staking__top">
+										<div class="list-staking__tok">Token</div>
+										<div class="list-staking__arp">APR</div>
+									</div>
+									<div class="list-staking__token">
+										<div class="list-staking__valute">
+											<img src="img/preview/tokens.svg" alt="">
+											<div class="list-staking__usdt">USDT / LAMA</div>
+										</div>
+										<div class="list-staking__prosent">56%</div>
+										<div class="list-staking__nav">
+											<div class="list-staking__icon">
+												<img src="img/icons/calculator.svg" alt="">
+											</div>
+											<button type="button" class="list-staking__button">Claim</button>
+										</div>
+									</div>
+								</div>
+								<div class="list-staking__block">
+									<div class="list-staking__top">
+										<div class="list-staking__tok">Token</div>
+										<div class="list-staking__arp">APR</div>
+									</div>
+									<div class="list-staking__token">
+										<div class="list-staking__valute">
+											<img src="img/preview/tokens.svg" alt="">
+											<div class="list-staking__usdt">USDT / LAMA</div>
+										</div>
+										<div class="list-staking__prosent">56%</div>
+										<div class="list-staking__nav">
+											<div class="list-staking__icon">
+												<img src="img/icons/calculator.svg" alt="">
+											</div>
+											<button type="button" class="list-staking__button">Claim</button>
+										</div>
+									</div>
+								</div>
+								<div class="list-staking__block">
+									<div class="list-staking__top">
+										<div class="list-staking__tok">Token</div>
+										<div class="list-staking__arp">APR</div>
+									</div>
+									<div class="list-staking__token">
+										<div class="list-staking__valute">
+											<img src="img/preview/tokens.svg" alt="">
+											<div class="list-staking__usdt">USDT / LAMA</div>
+										</div>
+										<div class="list-staking__prosent">56%</div>
+										<div class="list-staking__nav">
+											<div class="list-staking__icon">
+												<img src="img/icons/calculator.svg" alt="">
+											</div>
+											<button type="button" class="list-staking__button">Claim</button>
+										</div>
+									</div>
+								</div>
+								<div class="list-staking__block">
+									<div class="list-staking__top">
+										<div class="list-staking__tok">Token</div>
+										<div class="list-staking__arp">APR</div>
+									</div>
+									<div class="list-staking__token">
+										<div class="list-staking__valute">
+											<img src="img/preview/tokens.svg" alt="">
+											<div class="list-staking__usdt">USDT / LAMA</div>
+										</div>
+										<div class="list-staking__prosent">56%</div>
+										<div class="list-staking__nav">
+											<div class="list-staking__icon">
+												<img src="img/icons/calculator.svg" alt="">
+											</div>
+											<button type="button" class="list-staking__button">Claim</button>
+										</div>
+									</div>
+								</div>
+								<div class="list-staking__block">
+									<div class="list-staking__top">
+										<div class="list-staking__tok">Token</div>
+										<div class="list-staking__arp">APR</div>
+									</div>
+									<div class="list-staking__token">
+										<div class="list-staking__valute">
+											<img src="img/preview/tokens.svg" alt="">
+											<div class="list-staking__usdt">USDT / LAMA</div>
+										</div>
+										<div class="list-staking__prosent">56%</div>
+										<div class="list-staking__nav">
+											<div class="list-staking__icon">
+												<img src="img/icons/calculator.svg" alt="">
+											</div>
+											<button type="button" class="list-staking__button">Claim</button>
+										</div>
+									</div>
+								</div>
+								<div class="list-staking__block">
+									<div class="list-staking__top">
+										<div class="list-staking__tok">Token</div>
+										<div class="list-staking__arp">APR</div>
+									</div>
+									<div class="list-staking__token">
+										<div class="list-staking__valute">
+											<img src="img/preview/tokens.svg" alt="">
+											<div class="list-staking__usdt">USDT / LAMA</div>
+										</div>
+										<div class="list-staking__prosent">56%</div>
+										<div class="list-staking__nav">
+											<div class="list-staking__icon">
+												<img src="img/icons/calculator.svg" alt="">
+											</div>
+											<button type="button" class="list-staking__button">Claim</button>
+										</div>
+									</div>
+								</div>
+								<div class="list-staking__block">
+									<div class="list-staking__top">
+										<div class="list-staking__tok">Token</div>
+										<div class="list-staking__arp">APR</div>
+									</div>
+									<div class="list-staking__token">
+										<div class="list-staking__valute">
+											<img src="img/preview/tokens.svg" alt="">
+											<div class="list-staking__usdt">USDT / LAMA</div>
+										</div>
+										<div class="list-staking__prosent">56%</div>
+										<div class="list-staking__nav">
+											<div class="list-staking__icon">
+												<img src="img/icons/calculator.svg" alt="">
+											</div>
+											<button type="button" class="list-staking__button">Claim</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="staking__item item-staking">
+							<div class="item-staking__head">
+								<div class="item-staking__top">
+									<div class="item-staking__tok">Token</div>
+									<div class="item-staking__arp">APR</div>
+								</div>
+								<div class="item-staking__wallet">
+									<div class="item-staking__coin">
+										<img src="img/preview/tokens.svg" alt="">
+										<span>USDT / LAMA</span>
+									</div>
+									<div class="item-staking__prosent">56%</div>
+								</div>
+								<div class="item-staking__items">
+									<div class="item-staking__item">1000 USDT</div>
+									<div class="item-staking__item">365 days</div>
+									<button type="button" class="item-staking__button">Claim</button>
+								</div>
+								<div class="item-staking__titile">
+									<h3>Earnings</h3>
+								</div>
+								<div class="item-staking__sum">1560 USDT</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+	<script src="js/script.js"></script>
+	<script src="js/swiper.js"></script>
+	<script src="js/scroll.js"></script>
+</body>
+
+</html>
